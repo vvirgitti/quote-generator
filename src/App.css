@@ -39,6 +39,10 @@
   border-color: black;
 }
 
-.Body {
+body {
   background-color: grey;
+}
+
+p {
+  color: white;
 }
