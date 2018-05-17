@@ -27,8 +27,8 @@ export class Quote extends React.Component {
     return (
       <div className="Box">
         <button className="Button" onClick={this.handleClick}>New Quote</button>
-        <h2>"{this.state.quote}"</h2>
-        <h3>{this.state.author}</h3>
+        <div className="quote">{this.state.quote}</div>
+        <div className="author">{this.state.author}</div>
       </div> 
     );
   }

@@ -19,8 +19,8 @@
 }
 
 .Box {
-  height: 200px;
-  width: 600px;
+  height: 250px;
+  width: 800px;
   background-color: white;
   border-radius: 3px;
   margin: auto;
@@ -37,6 +37,18 @@
   padding: 10px;
   margin: 10px;
   border-color: black;
+}
+
+.quote {
+  font-family:  'Kavivanar', cursive;
+  font-size: 1.5em;
+  padding-top: 15px;
+}
+
+.author {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  padding-top: 20px;
 }
 
 body {
