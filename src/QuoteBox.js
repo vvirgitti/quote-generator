@@ -24,11 +24,19 @@ export class Quote extends React.Component {
   }
 
   render () {
+    
     return (
       <div className="Box">
         <button className="Button" onClick={this.handleClick}>New Quote</button>
         <div className="quote">{this.state.quote}</div>
         <div className="author">{this.state.author}</div>
+          <a className="twitter-share-button" 
+            href="https://twitter.com/share"
+            data-size="large"
+            data-text="custom text"
+            data-hashtags="quote">
+          Tweet
+          </a>
       </div> 
     );
   }

@@ -13,7 +13,6 @@ class App extends Component {
           Quote of the day:
         </p>
         <Quote />
-      
       </div>
     );
   }
