@@ -36,7 +36,7 @@
   bottom: 0px;
   padding: 10px;
   margin: 10px;
-  border-color: black;
+  border-color: red;
 }
 
 .quote {
@@ -51,10 +51,11 @@
   padding-top: 20px;
 }
 
-.twitter-share-button {
+#twitter_button {
   position: absolute;
   left: 0px;
   bottom: 0px;
+  padding: 10px;
 }
 
 body {
